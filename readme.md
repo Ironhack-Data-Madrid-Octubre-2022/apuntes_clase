@@ -1,4 +1,4 @@
-![process](https://github.com/Ironhack-Data-Madrid-Agosto-2022/Apuntes-de-clase/blob/main/images/process.jpg)
+![process](https://github.com/Ironhack-Data-Madrid-Octubre-2022/Apuntes-de-clase/blob/main/images/process.jpg)
 
 # Calendario de clase:
 
@@ -28,7 +28,7 @@
 
 + **L:** Intro bases de datos / SQL
 + **M:** SQL Queries
-+ **X:** SQL en Python / Postgres **(Sesion 1 Outcomes 9:00-10:00)**
++ **X:** SQL en Python / Postgres 
 + **J:** MongoDB /Geolocalización
 + **V:** Proyecto Database (Crear una base de datos)
 
@@ -45,7 +45,7 @@
 
 ### Semana 5 - Estadística descriptiva y visualización
 
-+ **L:** Estadística descriptiva / Ejemplo CLV  **(Sesion 2 Outcomes 9:00-10:00)**
++ **L:** Estadística descriptiva / Ejemplo CLV  
 + **M:** Visualización en Python 
 + **X:** Tableau
 + **J:** PowerBI
@@ -65,18 +65,18 @@
 
 ### Semana 7 - Machine Learning
 
-+ **L:** Intro a Machine Learning / Aprendizaje supervisado  **(Sesion 3 Outcomes 9:00-10:00)**
++ **L:** Intro a Machine Learning / Aprendizaje supervisado 
 + **M:** Evaluación / Ajuste 
-+ **X:** Seleccion de caracteristicas
++ **X:** Selección de características
 + **J:** Aprendizaje no supervisado / Evaluación
-+ **V:** La panadería de Güelita / NLP
++ **V:** NLP
 
 
 
 ### Semana 8 - Más
 
-+ **L:** Time Series
-+ **M:** Airflow / MLFlow
++ **L:** Time Series / RecSys
++ **M:** Otros
 + **X:** Inicio Proyecto Final 
 
 ### Semana 9 - Final
