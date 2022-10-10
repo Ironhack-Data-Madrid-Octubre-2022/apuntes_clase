@@ -1,4 +1,4 @@
-![process](https://github.com/Ironhack-Data-Madrid-Octubre-2022/Apuntes-de-clase/blob/main/images/process.jpg)
+![process](https://github.com/Ironhack-Data-Madrid-Agosto-2022/Apuntes-de-clase/blob/main/images/process.jpg)
 
 # Calendario de clase:
 
