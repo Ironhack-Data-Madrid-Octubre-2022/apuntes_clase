@@ -58,8 +58,8 @@
 + **L:** Probabilidad / Distribuciones
 + **M:** Testeo de hipótesis 
 + **X:** Más Testeo de hipótesis
-+ **J:** AB testing 
-+ **V:** Bayes / AB testing
++ **J:** AB testing (Bayes)
++ **V:** CRO Activity
 
 
 
