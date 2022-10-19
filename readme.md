@@ -26,7 +26,7 @@
 
 ### Semana 3 - Carga (bases de datos)
 
-+ **L:** Intro bases de datos / SQL
++ **L:** Intro bases de datos / SQL (Outcomes Touchpoint 1)
 + **M:** SQL Queries
 + **X:** SQL en Python / Postgres 
 + **J:** MongoDB /Geolocalización
@@ -45,7 +45,7 @@
 
 ### Semana 5 - Estadística descriptiva y visualización
 
-+ **L:** Estadística descriptiva / Ejemplo CLV  
++ **L:** Estadística descriptiva / Ejemplo CLV  (Outcomes Touchpoint 2)
 + **M:** Visualización en Python 
 + **X:** Tableau
 + **J:** PowerBI
@@ -65,7 +65,7 @@
 
 ### Semana 7 - Machine Learning
 
-+ **L:** Intro a Machine Learning / Aprendizaje supervisado 
++ **L:** Intro a Machine Learning / Aprendizaje supervisado  (Outcomes Touchpoint 3)
 + **M:** Evaluación / Ajuste 
 + **X:** Selección de características
 + **J:** Aprendizaje no supervisado / Evaluación
