@@ -12,6 +12,7 @@ __pycache__
 selenium/
 
 contraseñas.txt
+pass_.py
 
 .env
 *.hdf5
