@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_35c0e448868bcd09d0cc268e70159fcf {
+                #map_5758b5f8f306f9f3ff611c48dc6045c2 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -42,13 +42,13 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_35c0e448868bcd09d0cc268e70159fcf" ></div>
+            <div class="folium-map" id="map_5758b5f8f306f9f3ff611c48dc6045c2" ></div>
         
 </body>
 <script>    
     
-            var map_35c0e448868bcd09d0cc268e70159fcf = L.map(
-                "map_35c0e448868bcd09d0cc268e70159fcf",
+            var map_5758b5f8f306f9f3ff611c48dc6045c2 = L.map(
+                "map_5758b5f8f306f9f3ff611c48dc6045c2",
                 {
                     center: [35.68159659061569, 139.76451516151428],
                     crs: L.CRS.EPSG3857,
@@ -62,10 +62,10 @@
 
         
     
-            var tile_layer_161c5993eefb7fc44edde413add4820a = L.tileLayer(
+            var tile_layer_9af198f39ffb1acfe080dc94fb1db08f = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_35c0e448868bcd09d0cc268e70159fcf);
+            ).addTo(map_5758b5f8f306f9f3ff611c48dc6045c2);
         
     
             L.Control.TimeDimensionCustom = L.Control.TimeDimension.extend({
@@ -75,7 +75,7 @@
                     return newdate.format("YYYY-MM-DD HH:mm:ss");
                 }
             });
-            map_35c0e448868bcd09d0cc268e70159fcf.timeDimension = L.timeDimension(
+            map_5758b5f8f306f9f3ff611c48dc6045c2.timeDimension = L.timeDimension(
                 {
                     period: "PT1M",
                 }
@@ -83,7 +83,7 @@
             var timeDimensionControl = new L.Control.TimeDimensionCustom(
                 {"autoPlay": true, "loopButton": false, "maxSpeed": 10, "minSpeed": 0.1, "playerOptions": {"loop": true, "startOver": true, "transitionTime": 200}, "position": "bottomleft", "timeSliderDragUpdate": false}
             );
-            map_35c0e448868bcd09d0cc268e70159fcf.addControl(this.timeDimensionControl);
+            map_5758b5f8f306f9f3ff611c48dc6045c2.addControl(this.timeDimensionControl);
 
             var geoJsonLayer = L.geoJson({"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[139.76451516151428, 35.68159659061569], [139.75964426994324, 35.682590062684206]]}, "properties": {"times": ["2017-06-02T00:00:00", "2017-06-02T00:10:00"], "style": {"color": "red", "weight": 5}}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[139.75964426994324, 35.682590062684206], [139.7575843334198, 35.679505030038506]]}, "properties": {"times": ["2017-06-02T00:10:00", "2017-06-02T00:20:00"], "style": {"color": "blue", "weight": 5}}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[139.7575843334198, 35.679505030038506], [139.76337790489197, 35.678040905014065]]}, "properties": {"times": ["2017-06-02T00:20:00", "2017-06-02T00:30:00"], "style": {"color": "green", "weight": 15}}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[139.76337790489197, 35.678040905014065], [139.76451516151428, 35.68159659061569]]}, "properties": {"times": ["2017-06-02T00:30:00", "2017-06-02T00:40:00"], "style": {"color": "#FFFFFF", "weight": 5}}}]}, {
                     pointToLayer: function (feature, latLng) {
@@ -119,13 +119,13 @@
                     }
                 })
 
-            var timestamped_geo_json_c4ed9f49530ff09ca268b405ce945426 = L.timeDimension.layer.geoJson(
+            var timestamped_geo_json_5df7b233df364f5259cc6c8c6540a51a = L.timeDimension.layer.geoJson(
                 geoJsonLayer,
                 {
                     updateTimeDimension: true,
                     addlastPoint: true,
                     duration: undefined,
                 }
-            ).addTo(map_35c0e448868bcd09d0cc268e70159fcf);
+            ).addTo(map_5758b5f8f306f9f3ff611c48dc6045c2);
         
 </script>
